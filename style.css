@@ -1,0 +1,196 @@
+.titolo {
+    color:white;
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: none;
+    }
+   
+    .discord {
+   width: 100px;
+   height: 100px;
+   border: 0px;
+   border-radius:100%;
+   margin-top: 0px;
+   margin-bottom: 3px;
+   
+   }
+   
+   .dscard{
+   background-color:#2c2f33;
+   width: 270px;
+   
+   text-align: center;
+   border: 0px;
+   border-radius: 15px;
+   margin-right: 80px;
+   margin-top: 80px;
+   box-shadow: 0px 0px 10px #191b1d;
+   transition: all 0.3s ease-in-out;
+   padding-bottom: 50px;
+   display: inline-block;
+   padding-top: 0px;
+   }
+
+body {
+    padding:0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #25282b;
+}
+
+.parte1 {
+    background-image: url("https://cdn.discordapp.com/attachments/811582714754891786/904311905072594985/nfq5msw.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    filter: brightness(0.3);
+}
+
+.nomeserver {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.unisciti {
+    background-color: #2c2f33;
+    color: #5663F7;
+    text-decoration: none;
+    border: 2px solid #5663F7;
+    border-radius: 8px;
+    padding: 15px 50px;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.unisciti:hover {
+    background-color: #5663F7;
+    color: #2c2f33
+}
+
+.dscard:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 14px #141516;
+}
+
+.sfondotesto {
+    background-color:#2c2f33;
+   width: 60%;
+   text-align: center;
+   border: 0px;
+   border-radius: 15px;
+   margin:50px auto;
+   margin-top: 80px;
+   box-shadow: 0px 0px 10px #191b1d;
+   transition: all 0.3s ease-in-out
+
+}
+
+.sfondotesto:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 14px #141516;
+    
+}
+
+.testo {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.scrittads {
+    
+    color: #7289da;
+}
+
+.scrittaig {
+    
+    background-image: linear-gradient(60deg, #ffdf9e, #ffc273, #e56969, #c1558b, #8a49a1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.igcard{
+    background-color:#2c2f33;
+    width: 270px;
+    
+    text-align: center;
+    border: 0px;
+    border-radius: 15px;
+    margin-left:80px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px #191b1d;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    display: inline-block;
+    }
+
+    .uniscitiig {
+        color: white;
+        text-decoration: none;
+        border: 2px solid #ebca88;
+        border-radius: 8px;
+        padding: 15px 50px;
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        
+        
+    }
+
+    .uniscitiig::after {
+        border-radius: 5px;
+    }
+
+    .uniscitiig:hover {
+        background-image: linear-gradient(60deg, #ffdf9e, #ffc273, #e56969, #c1558b, #8a49a1);
+        border: transparent;
+    }
+    
+    .igcard:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 0px 14px #141516;
+    }
+
+    .carte {
+        text-align: center;
+        
+    }
+
+    .descrizione {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    padding: 30px;
+    font-size: 30px;
+    }
+
+
+    @media screen and (max-width:720px) {
+
+        .dscard{
+            
+            margin:50px auto;
+        }
+
+        .igcard {
+            
+                margin:50px auto;
+        }
+
+        .titolo {
+            font-size:180px;
+        }
+    }
