@@ -223,7 +223,7 @@ body {
    .recensione1 {
     background-color:#2c2f33;
     width: 400px;
-    height: auto;
+    height: 460px;
     border: 0px;
     border-radius: 15px;
     margin: 50px 70px;
@@ -235,7 +235,7 @@ body {
    .recensione2 {
     background-color:#2c2f33;
     width: 400px;
-    height: auto;
+    height: 460px;
     border: 0px;
     border-radius: 15px;
     margin: 50px 70px;
@@ -248,7 +248,7 @@ body {
    .recensione3 {
     background-color:#2c2f33;
     width: 400px;
-    height: auto;
+    height: 460px;
     border: 0px;
     border-radius: 15px;
     margin: 50px 70px;
@@ -361,4 +361,3 @@ body {
     transform: scale(1.05);
     box-shadow: 0px 0px 14px #131313;
 }
-
