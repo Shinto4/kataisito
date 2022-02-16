@@ -171,10 +171,22 @@ body {
     .descrizione {
     color: white;
     font-family: 'Nunito', sans-serif;
-    padding: 40px;
+    padding: 70px ;
     font-size: 30px;
     }
 
+    .sfondodescrizione {
+        background-color:#2c2f33;
+       width: 100%;
+       text-align: center;
+       margin:100px auto;
+       margin-top: 80px;
+       box-shadow: 0px 0px 10px #191b1d;
+       
+    
+    }
+
+    
 
     @media screen and (max-width:720px) {
 
