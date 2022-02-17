@@ -386,7 +386,7 @@ body {
 .vincitori {
     text-align: center;
     margin-top: 70px;
-    margin-bottom:280px;
+    margin-bottom:200px;
 }
 
 .bottone-vincitori:hover {
@@ -467,3 +467,71 @@ body {
     font-size: 25px;
 }
 
+.thankyou_message {
+    display: none;
+
+}
+
+.gform {
+    background-color: #2c2f33;
+    width: 100%;
+    height: 820px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.tipo-input{
+    padding-top: 60px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.input-nome {
+    border: 0px;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.input-nome:focus {
+    outline: none;
+    box-shadow: 0px 0px 12px #141516;
+}
+
+.input-testo {
+    text-align: start;
+    border: 0px;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    width: 500px;
+    height: 250px;
+    font-family: 'Nunito', sans-serif;
+    resize: none;
+}
+
+.input-testo:focus {
+    outline: none;
+    box-shadow: 0px 0px 12px #141516;
+}
+
+
+.input-invia {
+    border: 2px solid white;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-top: 70px;
+    background-color: #2c2f33;
+    color:white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.input-invia:hover {
+    background-color: white;
+    color: #2c2f33;
+}
