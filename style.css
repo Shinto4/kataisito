@@ -188,16 +188,16 @@ body {
 
     
 
-    @media screen and (max-width:720px) {
+    @media screen and (max-width:980px) {
 
         .dscard{
             
-            margin:50px auto;
+            margin:50px;
         }
 
         .igcard {
             
-                margin:50px auto;
+                margin:50px;
         }
 
         .titolo {
