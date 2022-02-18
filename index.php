@@ -12,20 +12,20 @@ $body = '
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     </head>
-    <body style="font-family: 'Nunito', sans-serif; font-size: 20px; text-align: center;">
+    <body style="font-family: "Nunito", sans-serif; font-size: 20px; text-align: center;">
         <h1>MODULO</h1>
         <p>Nome: '.$name.'<p>
         <p>Testo: '.$message.'</p>
     </body>
 </html>
 ';
-$send(mail($to, $subject, $body))
+$send(mail($to, $subject, $body));
 
 if($send) {
-echo "<script> alert('Grazie per aver inviato')</script>"
+echo "<script> alert('Grazie per aver inviato')</script>";
 
 } else {
-    echo "<script> alert('Non puoi lasciare in bianco')</script>"
+    echo "<script> alert('Non puoi lasciare in bianco')</script>";
 }
 }
 ?>
