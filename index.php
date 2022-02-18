@@ -131,7 +131,7 @@ echo "<script> alert('Grazie per aver inviato')</script>"
 
 <h1 class="testo">SEZIONE EVENTI</h1>
 <div class="vincitori">
-<a class="bottone-vincitori" href="vincitori.html">VISITA</a>
+<a class="bottone-vincitori" href="vincitori.php">VISITA</a>
 </div>
 
 
