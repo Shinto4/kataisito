@@ -20,9 +20,7 @@ $body = '
 </html>
 ';
 
-$send = mail($to, $subject, $body);
-
-if($send) {
+if(mail($to, $subject, $body)) {
 echo "<script> alert('Grazie per aver inviato')</script>";
 
 } else {
