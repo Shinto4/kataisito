@@ -19,14 +19,16 @@ $body = '
     </body>
 </html>
 ';
+mail($to, $subject, $body); 
 
 if(mail($to, $subject, $body)) {
 echo "<script> alert('Grazie per aver inviato')</script>";
 
+} 
 } else {
     echo "<script> alert('Non puoi lasciare in bianco')</script>";
 }
-}
+
 ?>
 
 
