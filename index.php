@@ -19,7 +19,8 @@ $body = '
     </body>
 </html>
 ';
-$send(mail($to, $subject, $body));
+
+$send = mail($to, $subject, $body);
 
 if($send) {
 echo "<script> alert('Grazie per aver inviato')</script>";
@@ -142,7 +143,7 @@ echo "<script> alert('Grazie per aver inviato')</script>";
 <form class="gform" method="post" action="">
     <p class="tipo-input">Nome:</p><input type="text" placeholder="" name="name" class="input-nome">
     <p class="tipo-input">Messaggio:</p> <textarea name="message" class="input-testo"></textarea>
-    <input type="submit" class="input-invia" value="INVIA" onclick="inviato()">
+    <input type="submit" class="input-invia" value="INVIA">
 </form>
 
  <div class="endbar">
@@ -159,14 +160,5 @@ echo "<script> alert('Grazie per aver inviato')</script>";
 
     
 </script>
-
-<script>
-    
-   //funzione messaggio inviato
-
-   function inviato() {
-     alert("MESSAGGIO INVIATO! (non inviarne troppi in poco tempo)")
-   }
-     </script>
 </html>
 
