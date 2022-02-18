@@ -1,37 +1,3 @@
-<?php 
-if (isset($_POST['name']) && isset($POST['message'])) {
-
-$name = $_POST['name'];
-$message = $POST['message'];
-$to = 'katai.supp0rt@gmail.com';
-$subject = 'Supporto';
-$body = '
-<html>
-    <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-    </head>
-    <body style="font-family: "Nunito", sans-serif; font-size: 20px; text-align: center;">
-        <h1>MODULO</h1>
-        <p>Nome: '.$name.'<p>
-        <p>Testo: '.$message.'</p>
-    </body>
-</html>
-';
-mail($to, $subject, $body); 
-
-if(mail($to, $subject, $body)) {
-echo "<script> alert('Grazie per aver inviato')</script>";
-
-} 
-} else {
-    echo "<script> alert('Non puoi lasciare in bianco')</script>";
-}
-
-?>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -132,7 +98,7 @@ echo "<script> alert('Grazie per aver inviato')</script>";
 
 <h1 class="testo">SEZIONE EVENTI</h1>
 <div class="vincitori">
-<a class="bottone-vincitori" href="vincitori.php">VISITA</a>
+<a class="bottone-vincitori" href="vincitori.html">VISITA</a>
 </div>
 
 
@@ -140,11 +106,8 @@ echo "<script> alert('Grazie per aver inviato')</script>";
 
 <h1 class="testo">CONTATTACI</h1>
 
-<form class="gform" method="post" action="">
-    <p class="tipo-input">Nome:</p><input type="text" placeholder="" name="name" class="input-nome">
-    <p class="tipo-input">Messaggio:</p> <textarea name="message" class="input-testo"></textarea>
-    <input type="submit" class="input-invia" value="INVIA">
-</form>
+    <a class="input-invia" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCKCCSDmrpWVMHzDLwHpdhpFlmhJMQsMLrsFXNJFSNHMjvZRmgcfHPMNxkPrKrzDzMCWQtHL">Scrivi</a>
+
 
  <div class="endbar">
      <p class="credits">Sito creato da Ale e Cri | Sans_#6776 | Shinto#6645 <br><br> Founder del server: Prop3r#9479<br></p>
