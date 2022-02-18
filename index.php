@@ -1,3 +1,36 @@
+<?php 
+if (isset($_POST['name']) && isset($POST['message'])) {
+
+$name = $_POST['name'];
+$message = $POST['message'];
+$to = 'katai.supp0rt@gmail.com';
+$subject = 'Supporto';
+$body = '
+<html>
+    <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body style="font-family: 'Nunito', sans-serif; font-size: 20px; text-align: center;">
+        <h1>MODULO</h1>
+        <p>Nome: '.$name.'<p>
+        <p>Testo: '.$message.'</p>
+    </body>
+</html>
+';
+$send(mail($to, $subject, $body))
+
+if($send) {
+echo "<script> alert('Grazie per aver inviato')</script>"
+
+} else {
+    echo "<script> alert('Non puoi lasciare in bianco')</script>"
+}
+}
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -106,13 +139,10 @@
 
 <h1 class="testo">CONTATTACI</h1>
 
-<form class="gform" method="post" data-email="katai.supp0rt@gmail.com" action="https://script.google.com/macros/s/AKfycbwfzUwqD_EMJ7HCOW4f7ZrdXvff9NREmdtRUacWAYGXS8le9ECEM1UuLeypONhHVaSLoA/exec">
+<form class="gform" method="post" action="">
     <p class="tipo-input">Nome:</p><input type="text" placeholder="" name="name" class="input-nome">
     <p class="tipo-input">Messaggio:</p> <textarea name="message" class="input-testo"></textarea>
-    <div class="form-inviato">
-        <p class="thankyou_message testo">Grazie, messaggio inviato (non inviare piu' di un email entro poco tempo)</p>
-    </div>
-    <input type="submit" class="input-invia" value="INVIA">
+    <input type="submit" class="input-invia" value="INVIA" onclick="inviato()">
 </form>
 
  <div class="endbar">
@@ -131,111 +161,12 @@
 </script>
 
 <script>
-    (function() {
-       // get all data in form and return object
-       function getFormData(form) {
-         var elements = form.elements;
-         var honeypot;
-     
-         var fields = Object.keys(elements).filter(function(k) {
-           if (elements[k].name === "honeypot") {
-             honeypot = elements[k].value;
-             return false;
-           }
-           return true;
-         }).map(function(k) {
-           if(elements[k].name !== undefined) {
-             return elements[k].name;
-           // special case for Edge's html collection
-           }else if(elements[k].length > 0){
-             return elements[k].item(0).name;
-           }
-         }).filter(function(item, pos, self) {
-           return self.indexOf(item) == pos && item;
-         });
-     
-         var formData = {};
-         fields.forEach(function(name){
-           var element = elements[name];
-           
-           // singular form elements just have one value
-           formData[name] = element.value;
-     
-           // when our element has multiple items, get their values
-           if (element.length) {
-             var data = [];
-             for (var i = 0; i < element.length; i++) {
-               var item = element.item(i);
-               if (item.checked || item.selected) {
-                 data.push(item.value);
-               }
-             }
-             formData[name] = data.join(', ');
-           }
-         });
-     
-         // add form-specific values into the data
-         formData.formDataNameOrder = JSON.stringify(fields);
-         formData.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
-         formData.formGoogleSendEmail
-           = form.dataset.email || ""; // no email by default
-     
-         return {data: formData, honeypot: honeypot};
-       }
-     
-       function handleFormSubmit(event) {  // handles form submit without any jquery
-         event.preventDefault();           // we are submitting via xhr below
-         var form = event.target;
-         var formData = getFormData(form);
-         var data = formData.data;
-     
-         // If a honeypot field is filled, assume it was done so by a spam bot.
-         if (formData.honeypot) {
-           return false;
-         }
-     
-         disableAllButtons(form);
-         var url = form.action;
-         var xhr = new XMLHttpRequest();
-         xhr.open('POST', url);
-         // xhr.withCredentials = true;
-         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-         xhr.onreadystatechange = function() {
-             if (xhr.readyState === 4 && xhr.status === 200) {
-               form.reset();
-               var formElements = form.querySelector(".form-elements")
-               if (formElements) {
-                 formElements.style.display = "none"; // hide form
-               }
-               var thankYouMessage = form.querySelector(".thankyou_message");
-               if (thankYouMessage) {
-                 thankYouMessage.style.display = "block";
-               }
-             }
-         };
-         // url encode form data for sending as post data
-         var encoded = Object.keys(data).map(function(k) {
-             return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
-         }).join('&');
-         xhr.send(encoded);
-       }
-       
-       function loaded() {
-         // bind to the submit event of our form
-         var forms = document.querySelectorAll("form.gform");
-         for (var i = 0; i < forms.length; i++) {
-           forms[i].addEventListener("submit", handleFormSubmit, false);
-         }
-       };
-       document.addEventListener("DOMContentLoaded", loaded, false);
-     
-       function disableAllButtons(form) {
-         var buttons = form.querySelectorAll("button");
-         for (var i = 0; i < buttons.length; i++) {
-           buttons[i].disabled = true;
-         }
-       }
-     })();
-   
+    
+   //funzione messaggio inviato
+
+   function inviato() {
+     alert("MESSAGGIO INVIATO! (non inviarne troppi in poco tempo)")
+   }
      </script>
 </html>
+
