@@ -1,0 +1,84 @@
+.img-staff {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.testo-staff {
+    font-family: 'Sora', sans-serif;
+    color: white;
+    display: inline;
+    float:right;
+    margin: 24px 40px 24px 10px;
+    
+    
+}
+
+.founder {
+    background-color: #2c2f33;
+    box-shadow: 3px 3px 0px #7289da;
+    margin: 20px 50px 0px 0px;
+    
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.titolo-staff {
+    font-family: 'Sora', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.staff {
+    margin: 100px 40px;
+}
+
+.co-founder {
+    background-color: #2c2f33;
+    box-shadow: 3px 3px 0px aqua;
+    margin: 20px 50px 0px 0px;
+    
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.admin {
+    background-color: #2c2f33;
+    box-shadow: 3px 3px 0px red;
+    margin: 20px 50px 50px 0px;
+    
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.moderator {
+    background-color: #2c2f33;
+    box-shadow: 3px 3px 0px rgb(20, 245, 0);
+    margin: 20px 50px 50px 0px;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.helper {
+    background-color: #2c2f33;
+    box-shadow: 3px 3px 0px rgb(255, 251, 0);
+    margin: 20px 50px 50px 0px;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.trial-staff {
+    background-color: #2c2f33;
+    box-shadow: 3px 3px 0px rgb(212, 131, 236);
+    margin: 20px 50px 50px 0px;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+}
