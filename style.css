@@ -493,6 +493,7 @@ body {
     height: 80px;
     text-align: center;
     font-family: 'Sora', sans-serif;
+    font-size: 20px;
 }
 
 .navbar a {
