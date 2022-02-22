@@ -1,0 +1,54 @@
+
+.faq {
+    margin: 80px 50px;
+    text-align: center;
+}
+.domanda-risposta {
+    text-align: center;
+    margin: 20px;
+    border: 3px solid black;
+    transition: all 250ms ease-in-out;
+}
+
+.domanda {
+    font-family: 'Sora', sans-serif;
+    font-size: 32px;
+    color: white;
+    background-color: #e45a5a;
+    padding: 10px 30px;
+    margin: 0px auto;
+    border-bottom: 3px solid black;
+}
+
+.risposta {
+    font-family: 'Sora', sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: #2c2f33;
+    margin: 0px auto;
+    padding: 10px 30px;
+    
+    
+}
+
+.titolo-faq {
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+.d1:hover {
+    transform: scale(1.05);
+}
+
+.d2:hover {
+    transform: scale(1.05);
+}
+
+.d3:hover {
+    transform: scale(1.05);
+}
+
+.d4:hover {
+    transform: scale(1.05);
+}
