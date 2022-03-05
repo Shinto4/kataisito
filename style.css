@@ -632,8 +632,7 @@ body {
     }
 
     .credits2 {
-        font-size: 30px;
-        padding-top: 60px;
+        display: none;
     }
 
     .ends {
@@ -642,7 +641,7 @@ body {
 
     .evento {
         width: 400px;
-        height: 420px;
+        height: 450px;
     }
      
      .img-evento {
