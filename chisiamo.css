@@ -1,0 +1,27 @@
+
+.titoloc {
+        font-family: 'Nunito', sans-serif;
+        font-size: 70px;
+        color: white;
+        text-align: center;
+
+    }
+
+    .click {
+        background-color: #e07070;
+    border: 2px solid #e07070;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    }
+
+    .frasec {
+        color: white;
+        font-family: 'Sora', sans-serif;
+        padding: 50px;
+    }
+
+    
+
+    

@@ -1,3 +1,51 @@
+.navbar {
+    background-color: #2c2f33;
+    margin: 0px;
+    height: 80px;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+}
+
+.navbar a {
+    position:relative;
+    top: 28px;
+    margin: 10px 15px;
+}
+
+.link-navbar {
+    color: white;
+    text-decoration: none;
+    padding: 14px 10px;
+}
+
+.bottone-navbar {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #e45a5a;
+    background-color: #e45a5a;
+    padding: 5px 10px;
+    border-radius: 6px;
+   
+}
+
+
+
+.link-navbar:hover {
+    background-color: #25282b;
+}
+
+.bottone-navbar:hover {
+    background-color: #e07070;
+    border: 2px solid #e07070;
+}
+
+.underline {
+    border-bottom: 2px solid #e45a5a;
+    margin-bottom: 0px;
+    
+}
+
 .titolo {
     color:white;
     font-size: 200px;
@@ -36,7 +84,7 @@
    margin-top: 80px;
    box-shadow: 0px 0px 10px #191b1d;
    transition: all 0.3s ease-in-out;
-   padding-bottom: 50px;
+   padding-bottom: 100px;
    display: inline-block;
    padding-top: 0px;
    }
@@ -143,7 +191,7 @@ body {
     margin-right: 50px;
     box-shadow: 0px 0px 10px #191b1d;
     transition: all 0.3s ease-in-out;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     padding-top: 0px;
     display: inline-block;
     }
@@ -194,34 +242,7 @@ body {
 
     
 
-    @media screen and (max-width:1280px) {
-
-        .dscard{
-            
-            margin:50px;
-        }
-
-        .igcard {
-            
-                margin:50px;
-        }
-
-        .titolo {
-            font-size:180px;
-        }
-
-        .dscard {
-            width: 350px;
-        }
-
-        .igcard {
-            width: 350px;
-        }
-
-        .navbar {
-            font-size: 20px;
-        }
-    }
+    
 
     
 
@@ -230,16 +251,29 @@ body {
         
         background-color: #2c2f33;
         width: 100%;
-        height: 100px;
+        height: 120px;
         margin-bottom: 0px;
     }
 
     .credits {
         color: rgb(189, 188, 188);
         font-family: 'Nunito', sans-serif;
-        padding-top: 40px;
-        font-size: 20px;
+        padding-top: 30px;
+        font-size: 25px;
         text-align: center;
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .credits2 {
+        color: rgb(189, 188, 188);
+        font-family: 'Nunito', sans-serif;
+        padding-top: 30px;
+        font-size: 25px;
+        text-align: center;
+        display: inline;
+        float: right;
+        margin-right: 20px;
     }
 
     .separatore {
@@ -267,7 +301,7 @@ body {
    .recensione2 {
     background-color:#2c2f33;
     width: 400px;
-    height: 465px;
+    height: 460px;
     border: 0px;
     border-radius: 15px;
     margin: 50px 70px;
@@ -343,18 +377,18 @@ body {
 }
 
 .evento {
-   background-color: rgb(255, 255, 255);
-   width: 300px;
-   height: 380px;
-   text-align: center;
-   border: 0px;
-   border-radius: 15px;
-   margin: 70px ;
-   box-shadow: 0px 0px 10px #131313;
-   transition: all 0.3s ease-in-out;
-   display: inline-block;
-   
-}
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 380px;
+    text-align: center;
+    border: 0px;
+    border-radius: 15px;
+    margin: 70px ;
+    box-shadow: 0px 0px 10px #131313;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    
+ }
 
 .img-evento {
     width: 100%;
@@ -379,10 +413,9 @@ body {
 
 .sfondotestoeventi {
    background-color:#2c2f33;
-   width: 60%;
+   width: 100%;
    text-align: center;
    border: 0px;
-   border-radius: 15px;
    margin:100px auto;
    box-shadow: 0px 0px 10px #191b1d;
    
@@ -487,53 +520,7 @@ body {
     margin-bottom: 150px;
 }
 
-.navbar {
-    background-color: #2c2f33;
-    margin: 0px;
-    height: 80px;
-    text-align: center;
-    font-family: 'Sora', sans-serif;
-    font-size: 20px;
-}
 
-.navbar a {
-    position:relative;
-    top: 28px;
-    margin: 10px 15px;
-}
-
-.link-navbar {
-    color: white;
-    text-decoration: none;
-    padding: 14px 10px;
-}
-
-.bottone-navbar {
-    text-decoration: none;
-    color: white;
-    border: 2px solid #e45a5a;
-    background-color: #e45a5a;
-    padding: 5px 10px;
-    border-radius: 6px;
-   
-}
-
-
-
-.link-navbar:hover {
-    background-color: #25282b;
-}
-
-.bottone-navbar:hover {
-    background-color: #e07070;
-    border: 2px solid #e07070;
-}
-
-.underline {
-    border-bottom: 2px solid #e45a5a;
-    margin-bottom: 0px;
-    
-}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -542,3 +529,152 @@ body {
   ::-webkit-scrollbar-thumb {
     background: #e45a5a;
   }
+
+
+  @media screen and (max-width:1280px) {
+
+        
+
+    .titolo {
+        font-size:200px;
+    }
+
+    .dscard {
+        width: 650px;
+        margin: 100px auto;
+    }
+
+    .igcard {
+        width: 650px;
+        margin: 100px auto;
+    }
+
+    .navbar {
+        font-size: 30px;
+        height: 100px;
+    }
+
+    .unisciti {
+        padding: 15px 90px;
+        font-size: 35px;
+    }
+
+    .uniscitiig {
+        padding: 15px 90px;
+        font-size: 35px;
+    }
+
+    .scrittads {
+        font-size: 60px;
+    }
+
+    .scrittaig {
+        font-size: 60px;
+    }
+
+    .discord {
+        width: 130px;
+        height: 130px;
+    }
+
+    .nomeserver {
+        font-size: 70px;
+    }
+
+    .recensione1 {
+        height: 620px;
+        width: 600px;
+        padding: 30px;
+    }
+
+    .recensione2 {
+        height: 620px;
+        width: 600px;
+        padding: 30px;
+    }
+
+    .recensione3 {
+        height: 620px;
+        width: 600px;
+        padding: 30px;
+    }
+
+    .nome-recensore {
+        font-size: 40px;
+    }
+
+    .img-recensore {
+        width: 130px;
+        height: 130px;
+    }
+
+    .stelle4 {
+        width: 180px;
+        height: 43px;
+    }
+
+    .stelle5 {
+        width: 180px;
+        height: 38px;
+    }
+
+    .testo-recensione {
+        font-size: 30px;
+    }
+
+    .endbar {
+        height: 190px;
+    }
+
+    .credits {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+
+    .credits2 {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+
+    .ends {
+        padding-top: 37px;
+    }
+
+    .evento {
+        width: 400px;
+        height: 420px;
+    }
+     
+     .img-evento {
+         width: 100%;
+         
+    }
+     
+     .titolo-evento {
+        
+         font-size: 33px;
+        
+    }
+
+     .testo-evento {
+         font-size: 23px;
+     }
+}
+
+.ends {
+    height: 50px;
+    width: 90px;
+    text-align: center;
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 45px;
+    filter: grey;
+    -webkit-filter: grayscale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.ends:hover {
+    filter: none;
+    -webkit-fitler: grayscale(0);
+}
