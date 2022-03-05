@@ -658,6 +658,30 @@ body {
      .testo-evento {
          font-size: 23px;
      }
+
+     .founder {
+         transform: scale(1.1);
+     }
+
+     .co-founder {
+        transform: scale(1.1);
+    }
+
+    .admin {
+        transform: scale(1.1);
+    }
+
+    .moderator {
+        transform: scale(1.1);
+    }
+
+    .helper {
+        transform: scale(1.1);
+    }
+
+    .trial-staff {
+        transform: scale(1.1);
+    }
 }
 
 .ends {
