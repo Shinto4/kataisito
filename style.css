@@ -678,3 +678,7 @@ body {
     filter: none;
     -webkit-fitler: grayscale(0);
 }
+
+img {
+    -webkit-user-drag: none;
+}
