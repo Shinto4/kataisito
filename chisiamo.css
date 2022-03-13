@@ -117,3 +117,46 @@
         background-color: #d8d5db;
         color: #2c2f33;
     }
+
+    @media screen and (max-width:1280px) {
+
+        
+    
+        .crcard {
+            width: 650px;
+            margin: 100px auto;
+        }
+    
+        .rbcard {
+            width: 650px;
+            margin: 100px auto;
+        }
+    
+    
+        .uniscitirb {
+            padding: 15px 90px;
+            font-size: 35px;
+        }
+    
+        .unisciticr {
+            padding: 15px 90px;
+            font-size: 35px;
+        }
+    
+        .scrittarb {
+            font-size: 60px;
+        }
+    
+        .scrittacr {
+            font-size: 60px;
+        }
+    
+        .discord {
+            width: 130px;
+            height: 130px;
+        }
+    
+        .nomeserver {
+            font-size: 70px;
+        }
+    }
