@@ -12,7 +12,7 @@
     border: 2px solid #e07070;
     text-decoration: none;
     color: white;
-    padding: 5px 10px;
+    padding: 7px 25px;
     border-radius: 6px;
     }
 
@@ -22,6 +22,98 @@
         padding: 50px;
     }
 
+    .rbcard {
+        background-color:#2c2f33;
+        width: 400px;
+        
+        text-align: center;
+        border: 0px;
+        border-radius: 15px;
+        margin-right: 140px;
+        margin-left: 50px;
+        margin-top: 80px;
+        margin-bottom: 200px;
+        box-shadow: 0px 0px 10px #191b1d;
+        transition: all 0.3s ease-in-out;
+        padding-bottom: 100px;
+        display: inline-block;
+        padding-top: 0px;
+        }
+
+        .testo-scrittarb {
+            padding: 17px;
+            font-size: 50px;
+            color: #d8d5db;
+        }
+
+    .crcard {
+        background-color:#2c2f33;
+        width: 400px;
+
+        text-align: center;
+        border: 0px;
+        border-radius: 15px;
+        margin-right: 140px;
+        margin-left: 50px;
+        margin-top: 80px;
+        box-shadow: 0px 0px 10px #191b1d;
+        transition: all 0.3s ease-in-out;
+        padding-bottom: 100px;
+        display: inline-block;
+        padding-top: 0px;
+    }
+
+
+
+     .unisciticr {
+        background-color: #2c2f33;
+        color: #ff3b3e;
+        text-decoration: none;
+        border: 2px solid #ff3b3e;
+        border-radius: 8px;
+        padding: 15px 60px;
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        transition: all 0.2s ease-in-out;
+        
+    }
     
 
-    
+    .blu {
+        font-size: 50px;
+        display: inline-block;
+        color: #2bb0f5;
+        padding-right: 5px;
+    }
+
+    .red {
+        font-size: 50px;
+        display: inline-block;
+        color: #ff3b3e;
+        padding-left: 5px;
+    }
+
+    .unisciticr:hover{
+        border: 2px solid #ff3b3e;
+        background-image: linear-gradient(60deg, #2bb0f5, #ff3b3e);
+        border: transparent;
+        color: white;
+        padding: 17px 62px;
+    }
+
+    .uniscitirb{
+        background-color: #2c2f33;
+        color: #d8d5db;
+        text-decoration: none;
+        border: 2px solid #d8d5db;
+        border-radius: 8px;
+        padding: 15px 60px;
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .uniscitirb:hover {
+        background-color: #d8d5db;
+        color: #2c2f33;
+    }
