@@ -7,6 +7,14 @@
 
     }
 
+    .titoloinfo {
+        font-family: 'Nunito', sans-serif;
+        padding-top: 50px;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+    }
+
     .click {
         background-color: #e07070;
     border: 2px solid #e07070;
@@ -19,7 +27,8 @@
     .frasec {
         color: white;
         font-family: 'Sora', sans-serif;
-        padding: 50px;
+        font-size: 30px;
+        padding: 100px 300px;
     }
 
     .rbcard {
@@ -29,8 +38,8 @@
         text-align: center;
         border: 0px;
         border-radius: 15px;
-        margin-right: 140px;
-        margin-left: 50px;
+        margin-right: 50px;
+        margin-left: 150px;
         margin-top: 80px;
         margin-bottom: 200px;
         box-shadow: 0px 0px 10px #191b1d;
@@ -53,7 +62,7 @@
         text-align: center;
         border: 0px;
         border-radius: 15px;
-        margin-right: 140px;
+        margin-right: 150px;
         margin-left: 50px;
         margin-top: 80px;
         box-shadow: 0px 0px 10px #191b1d;
@@ -118,6 +127,16 @@
         color: #2c2f33;
     }
 
+    .crcard:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 0px 14px #141516;
+    }
+
+    .rbcard:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 0px 14px #141516;
+    }
+
     @media screen and (max-width:1280px) {
 
         
@@ -158,5 +177,9 @@
     
         .nomeserver {
             font-size: 70px;
+        }
+
+        .frasec {
+            padding: 50px;
         }
     }
