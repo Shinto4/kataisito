@@ -81,7 +81,7 @@ transition: all 0.3s ease-in-out;
 
 
 
-@media screen and (max-width:1310px) and (min-width: 1200px){
+@media screen and (max-height:1200px){
     .endbar {
         position: static;
     }
