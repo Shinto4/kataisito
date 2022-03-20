@@ -81,9 +81,28 @@ transition: all 0.3s ease-in-out;
 
 
 
-@media screen and (max-width:1310px) and (min-width: 1200px){
+@media screen and (max-width:1300px) and (min-width: 662px){
     .endbar {
         position: static;
     }
     
 }
+
+@media screen  and (max-width:1300px) {
+
+    .lbd{
+        margin: 120px 50px;
+        transform: scale(1.4)
+    }
+    
+    .dpf {
+        margin: 120px auto;
+        transform: scale(1.4)
+    }
+    
+    .lbm{
+        margin: 120px 50px;
+        transform: scale(1.4)
+    }
+    
+    }
