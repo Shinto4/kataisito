@@ -121,7 +121,7 @@ body {
     color: #5663F7;
     text-decoration: none;
     border: 2px solid #5663F7;
-    border-radius: 8px;
+    border-radius: 12px;
     padding: 15px 60px;
     font-size: 30px;
     font-family: 'Nunito', sans-serif;
@@ -200,7 +200,7 @@ body {
         color: white;
         text-decoration: none;
         border: 2px solid #ebca88;
-        border-radius: 8px;
+        border-radius: 12px;
         padding: 15px 60px;
         font-size: 30px;
         font-family: 'Nunito', sans-serif;
