@@ -685,6 +685,7 @@ img {
 }
 
 .segreto {
-    text-align: center;
+    margin: 0px auto;
     color: #25282b;
+    font-size: 20px;
 }
