@@ -689,3 +689,8 @@ img {
     color: #25282b;
     font-size: 20px;
 }
+
+.endbar p a {
+    text-decoration: none;
+    color: #5663F7;
+}
